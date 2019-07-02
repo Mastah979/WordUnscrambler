@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace WordUnscrambler
 {
-    class WordMatcher
+    public class WordMatcher
     {
         public List<MatchedWord> Match(string[] scrambledWords, string[] wordList)
         {
